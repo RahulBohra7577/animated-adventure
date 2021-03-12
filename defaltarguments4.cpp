@@ -15,9 +15,7 @@ int main()
     cout<<"Enter the power :";
     cin>>j;
     display(i,j);
-    
     return 0;
-
 }
 float power(float x,int y=2){
     return pow(x,y);
@@ -29,4 +27,3 @@ void display(float ,float ){
 float power(float x,float y){
     return pow(x,y);
 }
- 

@@ -1,7 +1,6 @@
 #include<iostream>
 #include<ostream>
 #include<cmath>
-
 using namespace std;
 
 float i;
@@ -9,7 +8,6 @@ float j;
 float power(float x,int y);
 float power(float x,float y);
 void display(float ,float);
-
 int main()
 {
     cout<<"Enter the base number :";
@@ -18,8 +16,6 @@ int main()
     cin>>j;
     display(i,j);
     
-
-
     return 0;
 
 }

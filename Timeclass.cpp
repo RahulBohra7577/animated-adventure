@@ -27,7 +27,7 @@ private :
 
      }
 
-     void addTime(Time T1,Time T2)
+     void friend(Time T1,Time T2)
      {
          this->minutes=T1.minutes+T2.minutes;
          this->hours=T1.hours+T2.hours+this->minutes/60;
@@ -50,7 +50,7 @@ int main()
     T1.getTime();
     T1.printTime();
     T2.getTime();
-    T3.addTime(T1,T2);
+    T3.friend(T1,T2);
     T3.putTime();
 
     return 0;
